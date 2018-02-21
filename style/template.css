@@ -1,0 +1,463 @@
+@charset "utf-8";
+/***************** Default Styles *******************/
+
+/** RESTs   **/
+@font-face		{ src:url(../font/ErasBoldITC.ttf); font-family:Eras; }
+@font-face		{ src:url(../font/majalla.ttf); font-family:Majalla; }
+@font-face		{ src:url(../font/OpenSans-Regular.ttf); font-family:OpenSans; }
+
+*				{ margin:0; padding:0; outline:0; border:0;}
+body,html		{ width:100%;}
+
+.white														{ background-color:#fff} 
+.firstForm .btn												{ font-family:Eras;}
+.btn.navbar-btn     										{ border-radius:0; font-family:OpenSans; font-weight:800}
+.btn:focus, .btn:active:focus, .btn.active:focus 			{ outline: 0 none;}
+body .btn:hover										 		{ color:#FFF;}
+.firstFrom	.form form	button								{ }
+.btn-green													{ background-color:#69CD72; color:#FFF;}
+.btn-blue													{ background-color:#3B97D3; color:#FFF;}
+.btn-orange													{ background-color:#F7941D; color:#FFF;}
+.navbar-custom	.navbar-nav > li a:hover					{ background-color:rgba(255,255,255,0)}							
+.navbar-custom	.navbar-nav > li a:active					{ background-color:rgba(255,255,255,0)}							
+.navbar-custom	.navbar-nav > li a:focus					{ background-color:rgba(255,255,255,0)}							
+.navbar-custom	.navbar-nav > li a:visited					{ background-color:rgba(255,255,255,0)}							
+.navbar-custom	.navbar-nav > li a:link						{ background-color:rgba(255,255,255,0)}							
+.navbar-custom	.navbar-nav > li ul	li a					{ color:#999;}		
+.background-green											{ background-color:#69CD72;}					
+.background-blue											{ background-color:#3B97D3;}					
+/** RESTs E 	**/
+/** CUSTOM  	**/
+.headingB													{ font-family:Eras; }
+.headingC													{ font-family:OpenSans;}
+.headingM													{ font-family:Eras;}
+.headingF													{ font-family:Eras;}
+.headingS													{ font-family:Eras; }
+.tx															{ font-family:OpenSans; color:#999;}
+.txS														{ font-family:OpenSans; color:#999;}
+.txC														{}
+.spaceT														{ }
+.navbar-custom	.navbar-brand	img							{ }
+.navbar-custom	.navbar-brand								{ font-family:Eras;}
+.banner														{ }
+.bannerBG													{ }
+/** CUSTOM E	**/
+/** NAVIGATION  **/
+.navbar-custom												{ background-color:rgba(255,255,255,0.0)}
+.navbar-custom	.navbar-brand								{ color:#FFF;}
+.navbar-custom	.navbar-brand	img							{ float:left;}
+.navbar-custom	.navbar-nav > li a							{ color:#FFF; font-family:OpenSans;}					
+
+/** END			**/
+/** BANNER		**/
+.bannerBG													{ background-color:#3B97D3; position:absolute; opacity:0.7}
+.banner														{ background-image:url(../image/cloud-bg.jpg); background-attachment:fixed;}
+.bannerCaption												{ color:#fff;}
+.bannerCaption	h1											{ margin:0px; padding:0px}
+.bannerCaption	.headingC									{ color:#FFF; }
+/** END			**/
+/** HOW TO APPLY */
+.box													{ }
+.boxSmall												{ background-color:#3B97D3; color:#fff; text-align:center;}
+.boxSmall .tx											{ color:#fff;}
+.boxLarge												{ background-color:#F9F9F9;}
+.boxLarge p												{ }
+.boxLarge .tx											{ font-weight:bold; }
+.boxLarge .url											{ color:#3B97D3; text-decoration:underline; }
+.boxLarge .snipet										{ }
+.firstFrom												{ background-color:#F9F9F9; }
+.firstFrom .headingGreen								{ color:#fff; background-color:#69CD72;}
+.firstFrom .headingBlue									{ color:#fff; background-color:#3B97D3}
+.firstFrom .heading		h3								{ color:#fff; }
+.firstFrom .heading		.tx								{ color:#fff; }
+.firstFrom .form										{  }
+.firstFrom .form		input							{ }
+.triangleGreen											{ border-top: solid 100px #69CD72;	border-left: solid 240px transparent;  
+														  border-right: solid 240px transparent; background-color:#fff} 													
+.triangleBlue											{ border-top: solid 100px #3B97D3;	border-left: solid 240px transparent;  
+														  border-right: solid 240px transparent; background-color:#fff;} 													
+.firstFrom .btn-green									{ font-family:Eras}
+.firstFrom .btn-blue									{ font-family:Eras}
+.htpPanel												{ }
+.htpPanel			i									{ color:#69CD72}
+.htpPanel			h3									{ }
+.htpPanel			p									{ }
+
+
+/** END			**/
+/** DIVIDER 	**/
+.happyCustomersPanelBG										{ border-radius:10px }
+.happyCustomersPanel										{ text-align:center; color:#fff}
+.happyCustomersPanel p										{ margin:0px}
+.happyCustomersPanel:nth-child(2)							{ border-right:1px solid #ccc; border-left:1px solid #ccc;}
+/** DIVIDER   E	**/
+/** BLOG 		**/
+.blogRow													{ }
+.blogRow	i												{ color:#999}
+.blogRow	i.fa-eye-slash									{ color:#999;}
+.blogRow	i.fa-thumbs-o-up								{ color:#3B97D3}
+.blogRow	i.fa-heart										{ color:#EF0F6F}
+.blogRow	i.fa-share-alt									{ color:#3B97D3}
+.blogRow	button i										{ color:#fff}
+.blogRow	a												{ color:#000; font-family:OpenSans;}
+.blogRow	a:hover											{ color:#3B97D3; text-decoration:none;}
+.blogRow	.headingS:hover									{ text-decoration:underline; color:#000 }
+.blogRow.headingS:hover										{ color:#666; }
+
+/** END			**/
+/******   FOOTER        ********************/
+.firstLine													{ background-color:#232323;}
+.footerPanel												{ padding:30px  0px;}
+.footerPanel	.hDs										{ color:#FFF;}
+.footerPanel	.hDm										{ color:#FFF; }
+.footerPanel	.tx											{ color:#999}
+.footerPanel	.tx	span									{ color:#fff}
+.footerPanel	.tx	a i										{ color:#999}
+.footerPanel	.tx	a:hover i								{ color:#fff}
+.footerPanel	.tx i										{ color:#FFF; }
+.footerPanel 	.row										{ padding:10px 0px;}
+.footerPanel hr												{ border-top: 1px solid #666;}
+.footerPanel	input										{ height:40px;}
+.btn-subscribe												{ background-color:#3D466E; color:#fff; height:40px;}
+.btn-subscribe:hover										{ background-color:#CCC; }
+
+.lastLine													{ background-color:#1E1E1E;}
+.lastLine	p												{ color:#CCC; margin-bottom:0px; padding:10px 0px; }
+.lastLine	span											{ color:#FFF; }
+footer .hDs													{ font-family:Eras;}
+footer .hDm													{ font-family:OpenSans;}
+footer .tx		 											{ font-family:OpenSans;}	
+
+/******   FOOTER        *************(END)***/
+
+
+
+
+/***************** MOBILE PORTRAIT*******************/
+/** CUSTOM  	**/
+.headingB													{ font-size:24px;}
+.headingC													{ font-size:16px;}
+.headingM													{ font-size:24px; }
+.headingF													{ font-size:14px; }
+.headingS													{ font-size:14px; }
+.tx															{ font-size:12px; }
+.txS														{ font-size:10px; }
+.txC														{}
+.spaceT														{ margin:20px 0px;}
+.navbar-custom	.navbar-brand	img							{ height:30px; width:30px; margin-top:0px;}
+.navbar-custom	.navbar-brand								{ font-size:14px; }
+.navbar-collapse											{ background-color:#999;}
+.navbar-custom	.navbar-nav >  button						{ font-size:10px;}
+.banner														{ height:300px; width:100%;}
+.bannerCaption												{ margin-top:70px; }
+.bannerBG													{ height:300px; width:100%;}
+.blogRow	.heading S 										{ font-size:7px}
+.blogRow	a												{ font-size:7px}
+.blogRow	p a												{ font-size:12px}
+/** CUSTOM E	**/
+/** HOW TO APPLY */
+.box													{ margin-top:12px;}
+.boxSmall												{ height:120px; }
+.boxSmall .tx											{ font-size:36px; margin-top:30px; }
+.boxLarge												{ height:120px; padding:10px 0px;}
+.boxLarge p												{ margin:0px;}
+.boxLarge .tx											{ font-size:12px;}
+.boxLarge .url											{ font-size:9px;}
+.boxLarge .snipet										{ font-size:10px; }
+.firstFrom												{ height:auto; padding:30px 0px 0px 0px; margin-top:10px; }
+.firstFrom .headingGreen								{ padding:10px; }
+.firstFrom .headingBlue									{ padding:10px; }
+.firstFrom .heading		h3								{ margin:0px; }
+.firstFrom .heading		.tx								{ margin:0px; }
+.firstFrom .form										{ padding:30px; }
+.firstFrom .form		input							{ margin-top:10px;}
+.firstFrom .form		select							{ margin-top:10px; color:#999}
+.triangleGreen											{ border-top: solid 100px #69CD72;	border-left: solid 100px transparent;  
+														  border-right: solid 100px transparent; background-color:#fff} 													
+.triangleBlue											{ border-top: solid 100px #3B97D3;	border-left: solid 100px transparent;  
+														  border-right: solid 100px transparent; background-color:#fff} 													
+.firstFrom .btn-green									{ font-size:16px; }
+.firstFrom .btn-blue									{ font-size:16px;}
+.htpPanel												{ margin-top:10px; }
+.htpPanel			img									{ margin-top:10px;}
+.htpPanel			h3									{ margin:0px;}
+.htpPanel			p									{ margin:0px;}
+/** END			**/
+/******   FOOTER        ********************/
+footer .hDs													{ font-size:26px; }
+footer .hDm													{ font-size:14px; }
+footer .tx		 											{ font-size:11px; }	
+
+
+
+
+
+
+
+
+/***************** MOBILE LANDSCAPE*******************/
+@media only screen and (min-width : 480px) {
+/** CUSTOM  	**/
+.headingB													{ font-size:24px;}
+.headingC													{ font-size:14px;}
+.headingM													{ font-size:24px; }
+.headingF													{ font-size:14px; }
+.headingS													{ font-size:14px; }
+.tx															{ font-size:12px; }
+.txS														{ font-size:10px; }
+.txC														{}
+.spaceT														{ margin:20px 0px;}
+.navbar-custom	.navbar-brand	img							{ height:30px; width:30px; margin-top:0px;}
+.navbar-custom	.navbar-brand								{ font-size:14px; }
+.navbar-custom	.navbar-nav >  button						{ font-size:10px;}
+.navbar-collapse											{ background-color:#999;}
+.banner														{ height:200px; width:100%;}
+.bannerCaption												{ margin-top:70px; }
+.bannerBG													{ height:200px; width:100%;}
+.blogRow	.heading S 										{ font-size:7px}
+.blogRow	a												{ font-size:7px}
+.blogRow	p a												{ font-size:12px}
+/** CUSTOM E	**/
+/** HOW TO APPLY */
+.box													{ margin-top:12px;}
+.boxSmall												{ height:120px; }
+.boxSmall .tx											{ font-size:36px; margin-top:30px; }
+.boxLarge												{ height:120px; padding:10px 0px;}
+.boxLarge p												{ margin:0px;}
+.boxLarge .tx											{ font-size:12px;}
+.boxLarge .url											{ font-size:9px;}
+.boxLarge .snipet										{ font-size:10px; }
+.firstFrom												{ height:auto; padding:30px 0px 0px 0px; margin-top:10px; }
+.firstFrom .headingGreen								{ padding:10px; }
+.firstFrom .headingBlue									{ padding:10px; }
+.firstFrom .heading		h3								{ margin:0px; }
+.firstFrom .heading		.tx								{ margin:0px; }
+.firstFrom .form										{ padding:30px; }
+.firstFrom .form		input							{ margin-top:10px;}
+.firstFrom .form		select							{ margin-top:10px; color:#999}
+.triangleGreen											{ border-top: solid 100px #69CD72;	border-left: solid 100px transparent;  
+														  border-right: solid 100px transparent; background-color:#fff} 													
+.triangleBlue											{ border-top: solid 100px #3B97D3;	border-left: solid 100px transparent;  
+														  border-right: solid 100px transparent; background-color:#fff} 													
+.firstFrom .btn-green									{ font-size:16px; }
+.firstFrom .btn-blue									{ font-size:16px;}
+.htpPanel												{ margin-top:10px; }
+.htpPanel			img									{ margin-top:10px;}
+.htpPanel			h3									{ margin:0px;}
+.htpPanel			p									{ margin:0px;}
+/** END			**/
+/******   FOOTER        ********************/
+footer .hDs													{ font-size:26px; }
+footer .hDm													{ font-size:14px; }
+footer .tx		 											{ font-size:11px; }	
+
+
+
+
+
+
+
+}
+
+/***************** TABLET PORTRAIT*******************/
+@media only screen and (min-width : 768px) {
+/** CUSTOM  	**/
+.headingB													{ font-size:36px; }
+.headingC													{ font-size:18px; }
+.headingM													{ font-size:24px; }
+.headingF													{ font-size:14px; }
+.headingS													{ font-size:14px; }
+.tx															{ font-size:12px; }
+.txS														{ font-size:10px; }
+.txC														{}
+.spaceT														{ margin:40px 0px;}
+.navbar-custom	.navbar-brand	img							{ height:30px; width:30px; margin-top:0px;}
+.navbar-custom	.navbar-brand								{ font-size:14px; }
+.navbar-custom	.navbar-nav >  button						{ font-size:10px;}
+.navbar-collapse											{ background-color:rgba(1,1,1,0);}
+.banner														{ height:300px; width:100%;}
+.bannerCaption												{ margin-top:130px; }
+.bannerBG													{ height:300px; width:100%;}
+/** CUSTOM E	**/
+/** HOW TO APPLY */
+.box													{ margin-top:12px;}
+.boxSmall												{ height:100px; }
+.boxSmall .tx											{ font-size:36px; margin-top:20px; }
+.boxLarge												{ height:100px; padding:10px 0px;}
+.boxLarge p												{ margin:0px;}
+.boxLarge .tx											{ font-size:12px;}
+.boxLarge .url											{ font-size:9px;}
+.boxLarge .snipet										{ font-size:10px; }
+.firstFrom												{ height:auto; padding:30px 0px 0px 0px; margin-top:-10px; }
+.firstFrom .headingGreen								{ padding:10px; }
+.firstFrom .headingBlue									{ padding:10px; }
+.firstFrom .heading		h3								{ margin:0px; }
+.firstFrom .heading		.tx								{ margin:0px; }
+.firstFrom .form										{ padding:30px; }
+.firstFrom .form		input							{ margin-top:10px;}
+.firstFrom .form		select							{ margin-top:10px; color:#999}
+.triangleGreen											{ border-top: solid 100px #69CD72;	border-left: solid 145px transparent;  
+														  border-right: solid 145px transparent; background-color:#fff} 													
+.triangleBlue											{ border-top: solid 100px #3B97D3;	border-left: solid 145px transparent;  
+														  border-right: solid 145px transparent; background-color:#fff} 													
+.firstFrom .btn-green									{ font-size:16px; }
+.firstFrom .btn-blue									{ font-size:16px;}
+.htpPanel												{ margin-top:10px; }
+.htpPanel			img									{ margin-top:10px;}
+.htpPanel			h3									{ margin:0px;}
+.htpPanel			p									{ margin:0px;}
+
+
+/** END			**/
+/******   FOOTER        ********************/
+footer .hDs													{ font-size:16px; }
+footer .hDm													{ font-size:14px; }
+footer .tx		 											{ font-size:11px; }	
+.btn-subscribe												{ font-size:9px;}
+
+
+
+
+
+
+
+}
+
+/***************** TABLET SCREEN LANDSCAPE*******************/
+@media only screen and (min-width : 992px) {
+/** CUSTOM  	**/
+.headingB													{ font-size:50px; }
+.headingC													{ font-size:36px; }
+.headingM													{ font-size:30px; }
+.headingF													{ font-size:22px; }
+.headingS													{ font-size:20px; }
+.tx															{ font-size:16px; }
+.txS														{ font-size:14px; }
+.txC														{}
+.spaceT														{ margin:80px 0px;}
+.navbar-custom	.navbar-brand	img							{ height:60px; width:60px; margin-top:-15px;}
+.navbar-custom	.navbar-brand								{ font-size:22px; }
+.navbar-custom	.navbar-nav >  button						{ font-size:14px;}
+.navbar-collapse											{ background-color:rgba(1,1,1,0);}
+.banner														{ height:500px; width:100%;}
+.bannerBG													{ height:500px; width:100%;}
+/** CUSTOM E	**/	
+/** HOW TO APPLY */
+.box													{ margin-top:12px;}
+.boxSmall												{ height:100px; }
+.boxSmall .tx											{ font-size:46px; margin-top:15px; }
+.boxLarge												{ height:100px; padding:10px 0px;}
+.boxLarge p												{ margin:0px;}
+.boxLarge .tx											{ font-size:14px;}
+.boxLarge .url											{ font-size:12px;}
+.boxLarge .snipet										{ font-size:12px; }
+.firstFrom												{ height:600px; padding:30px 0px 0px 0px; margin-top:-10px; }
+.firstFrom .headingGreen								{ padding:30px; }
+.firstFrom .headingBlue									{ padding:30px; }
+.firstFrom .heading		h3								{ margin:0px; }
+.firstFrom .heading		.tx								{ margin:0px; }
+.firstFrom .form										{ padding:30px; }
+.firstFrom .form		input							{ margin-top:10px;}
+.firstFrom .form		select							{ margin-top:10px; color:#999}
+.triangleGreen											{ border-top: solid 100px #69CD72;	border-left: solid 240px transparent;  
+														  border-right: solid 240px transparent; background-color:#fff} 													
+.triangleBlue											{ border-top: solid 100px #3B97D3;	border-left: solid 240px transparent;  
+														  border-right: solid 240px transparent; background-color:#fff} 													
+.firstFrom .btn-green									{ font-size:16px; }
+.firstFrom .btn-blue									{ font-size:16px;}
+.htpPanel												{ margin-top:30px; }
+.htpPanel			img									{ margin-top:10px;}
+.htpPanel			h3									{ margin:0px;}
+.htpPanel			p									{ margin:0px;}
+
+
+/** END			**/
+/******   FOOTER        ********************/
+footer .hDs													{ font-size:36px; }
+footer .hDm													{ font-size:18px; }
+footer .tx		 											{ font-size:14px; }	
+.btn-subscribe												{ font-size:14px}
+
+
+
+
+
+
+
+
+
+}
+
+/***************** LARGE SCREEN *******************/
+@media only screen  and (min-width : 1200px) {
+/** CUSTOM  	**/
+.headingB													{ font-size:50px; }
+.headingC													{ font-size:28px; }
+.headingM													{ font-size:30px; }
+.headingF													{ font-size:22px; }
+.headingS													{ font-size:20px; }
+.tx															{ font-size:16px; }
+.txS														{ font-size:14px; }
+.txC														{}
+.spaceT														{ margin:80px 0px;}
+.navbar-collapse											{ background-color:rgba(1,1,1,0);}
+.navbar-custom	.navbar-brand	img							{ height:60px; width:60px; margin-top:-15px;}
+.navbar-custom	.navbar-brand								{ font-size:22px; }
+.navbar-custom	.navbar-nav >  button						{ font-size:14px;}
+.banner														{ height:500px; width:100%;}
+.bannerCaption												{ margin-top:170px;}
+.bannerBG													{ height:500px; width:100%;}
+.blogRow	a												{ font-size:16px}
+.blogRow	p a												{ font-size:14px}
+/** CUSTOM E	**/
+/** HOW TO APPLY */
+.box													{ margin-top:12px;}
+.boxSmall												{ height:100px; }
+.boxSmall .tx											{ font-size:46px; margin-top:15px; }
+.boxLarge												{ height:100px; padding:10px 0px;}
+.boxLarge p												{ margin:0px;}
+.boxLarge .tx											{ font-size:14px;}
+.boxLarge .url											{ font-size:12px;}
+.boxLarge .snipet										{ font-size:12px; }
+.firstFrom												{ height:auto; padding:30px 0px 0px 0px; margin-top:-10px; margin-bottom:0px; }
+.firstFrom .headingGreen								{ padding:20px; }
+.firstFrom .headingBlue									{ padding:20px; }
+.firstFrom .heading		h3								{ margin:0px; }
+.firstFrom .checkbox1									{ font-size:9px }
+.firstFrom .heading		.tx								{ margin:0px; }
+.firstFrom .form										{ padding:30px; }
+.firstFrom .form		input							{ margin-top:10px;}
+.firstFrom .form		select							{ margin-top:10px; color:#999}
+.triangleGreen											{ border-top: solid 100px #69CD72;	border-left: solid 240px transparent;  
+														  border-right: solid 240px transparent; background-color:#fff} 													
+.triangleBlue											{ border-top: solid 100px #3B97D3;	border-left: solid 240px transparent;  
+														  border-right: solid 240px transparent; background-color:#fff;} 													
+.firstFrom .btn-green									{ font-size:16px; }
+.firstFrom .btn-blue									{ font-size:16px;}
+.htpPanel												{ margin-top:30px; }
+.htpPanel			i									{ margin-top:20px;}
+.htpPanel			h3									{ margin:0px;}
+.htpPanel			p									{ margin:0px;}
+
+
+/** END			**/
+/******   FOOTER        ********************/
+footer .hDs													{ font-size:26px; }
+footer .hDm													{ font-size:18px; }
+footer .tx		 											{ font-size:14px; }	
+/******   FOOTER        ********************/
+
+
+
+
+
+}
+/** BULLET ANIMATION **/
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
